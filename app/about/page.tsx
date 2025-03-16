@@ -1,4 +1,4 @@
-import { Lightbulb, Users, BookOpenText, Heart, Star, Globe, Target, UserPlus } from "lucide-react";
+import { Lightbulb, Users, BookOpenText, Heart, Star, Globe, UserPlus } from "lucide-react";
 
 const About = () => {
   return (

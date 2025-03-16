@@ -47,7 +47,7 @@ const FeaturesSection = () => {
             </div>
             <h3 className="text-2xl font-bold mb-2 text-yellow-500 font-trap">Safe Environment</h3>
             <p className="text-gray-600 font-trap leading-relaxed">
-              A secure platform where parents can feel confident about their children's online experience.
+              A secure platform where parents can feel confident about their childrens online experience.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ const FeaturesSection = () => {
             </div>
             <h3 className="text-2xl font-bold mb-2 text-green-600 font-trap">Progress Tracking</h3>
             <p className="text-gray-600 font-trap leading-relaxed">
-              Monitor your child's advancement with detailed progress reports and personalized recommendations.
+              Monitor your childs advancement with detailed progress reports and personalized recommendations.
             </p>
           </div>
 

@@ -43,7 +43,7 @@ const Testimonials: React.FC = () => {
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="bg-white p-6 rounded-2xl shadow-lg relative transform hover:scale-105 transition duration-300">
               <Quote className="absolute top-4 left-4 text-indigo-500 w-10 h-10 opacity-50" />
-              <p className="text-gray-700 text-lg font-trap italic mb-4">"{testimonial.feedback}"</p>
+              <p className="text-gray-700 text-lg font-trap italic mb-4">{testimonial.feedback}</p>
               <h4 className="text-indigo-600 font-semibold text-xl font-trap">{testimonial.name}</h4>
               <p className="text-gray-500 text-sm">{testimonial.role}</p>
             </div>

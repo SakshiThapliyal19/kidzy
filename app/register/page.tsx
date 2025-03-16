@@ -61,14 +61,14 @@ const RegisterPage = () => {
             <div className="md:w-1/2 p-8">
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-indigo-600 font-trap">Create Your Account</h3>
-                <p className="text-black font-trap">Let's get you started on this amazing journey!</p>
+                <p className="text-black font-trap">Let us get you started on this amazing journey!</p>
               </div>
 
               <form className="space-y-6">
                 {/* Parent's username field */}
                 <div>
                   <label className="block text-black font-trap font-medium mb-2" htmlFor="parentName">
-                    Parent's Name <span className="text-pink-500">*</span>
+                    Parent Name <span className="text-pink-500">*</span>
                   </label>
                   <input
                     id="parentName"
@@ -96,7 +96,7 @@ const RegisterPage = () => {
                 {/* Kid's name field */}
                 <div>
                   <label className="block text-gray-700 font-trap font-medium mb-2" htmlFor="kidName">
-                    Kid's Name <span className="text-pink-500">*</span>
+                    Child Name <span className="text-pink-500">*</span>
                   </label>
                   <input
                     id="kidName"
@@ -110,7 +110,7 @@ const RegisterPage = () => {
                 {/* Kid's age field */}
                 <div>
                   <label className="block text-gray-700 font-trap font-medium mb-2" htmlFor="kidAge">
-                    Kid's Age <span className="text-pink-500">*</span>
+                    Child Age <span className="text-pink-500">*</span>
                   </label>
                   <select
                     id="kidAge"
@@ -143,7 +143,7 @@ const RegisterPage = () => {
                 {/* Photo upload */}
                 <div>
                   <label className="block text-gray-700 font-trap font-medium mb-2">
-                    Kid's Photo (Optional)
+                    Child Photo (Optional)
                   </label>
                   <div className="flex items-center space-x-4">
                     <div className="w-20 h-20 bg-gray-100 rounded-full flex items-center justify-center overflow-hidden border-2 border-dashed border-indigo-300">
@@ -175,7 +175,7 @@ const RegisterPage = () => {
                     type="submit"
                     className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-trap font-medium py-3 px-4 rounded-full hover:opacity-90 transition duration-300 transform hover:scale-105"
                   >
-                    Let's Begin The Adventure!
+                    Let us Begin The Adventure!
                   </button>
                 </div>
               </form>

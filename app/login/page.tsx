@@ -44,14 +44,14 @@ const LoginPage = () => {
             <div className="md:w-1/2 p-8 flex flex-col justify-center">
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-indigo-600 font-trap">Log In</h3>
-                <p className="text-gray-600 font-trap">Welcome back! We've missed you!</p>
+                <p className="text-gray-600 font-trap">Welcome back! We have missed you!</p>
               </div>
 
               <form className="space-y-6">
                 {/* Email field */}
                 <div>
                   <label className="block text-gray-700 font-trap font-medium mb-2" htmlFor="email">
-                    Parent's Email
+                    Parent Email
                   </label>
                   <div className="relative">
                     <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -126,7 +126,7 @@ const LoginPage = () => {
               {/* Register link */}
               <div className="text-center mt-6">
                 <p className="font-trap text-gray-600">
-                  Don't have an account yet?{" "}
+                  Do not have an account yet?{" "}
                   <Link href="/register" className="text-indigo-600 hover:underline font-medium">
                     Sign up here!
                   </Link>

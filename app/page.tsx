@@ -3,8 +3,7 @@ import FeaturesSection from "@/app/Home/Feaures";
 import CoursesSection from "@/app/Home/Courses";
 import TestimonialsSection from "@/app/Home/Testimonials";
 import HowItWorksSection from "@/app/Home/Howitworks";
-import Navbar from "@/app/components/Navbar";
-import Footer from "@/app/components/Footer";
+
 
 const Homepage = () => {
   return (
